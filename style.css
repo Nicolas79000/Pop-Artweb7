@@ -1,0 +1,138 @@
+/* Style global */
+body, html {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* En-tête / Hero section */
+.hero-section {
+    background-image: url('images/hero-bg.jpg'); /* Remplacez par l'image de fond souhaitée */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #FF6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FF4500;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Section d'introduction */
+.intro-section {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro-section h2 {
+    font-size: 36px;
+    color: #FF1493;
+    margin-bottom: 10px;
+}
+
+.intro-section p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Section à propos */
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Grille de produits */
+.product-grid {
+    display: flex;
+    justify-content: center; /* Centre les cartes */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Cartes produits */
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Largeur fixe pour aligner toutes les cartes */
+    height: 200px; /* Hauteur fixe pour un alignement uniforme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+    font
